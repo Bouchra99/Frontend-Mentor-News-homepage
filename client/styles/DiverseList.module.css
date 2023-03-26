@@ -1,0 +1,12 @@
+.container{
+    display: flex ;
+    height: fit-content;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+@media(max-width:750px){
+    .container{
+        flex-direction: column;
+    }
+}

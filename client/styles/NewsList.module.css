@@ -1,0 +1,31 @@
+.container {
+    flex: 0.9;
+    background-color: var( --very-dark-blue);
+    padding: 0 1rem;
+    
+}
+
+.title{
+    color : var(--soft-orange);
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+    height: 10%;
+}
+.news{
+    color : var(--off-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 87%;
+}
+
+@media (max-width:750px) {
+    .title{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .container{
+        height: 100vh;
+    }
+}

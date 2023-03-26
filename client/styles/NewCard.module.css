@@ -1,0 +1,38 @@
+.card {
+  flex : 1;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--gravish-blue);
+}
+
+.card:not(.last):last-child {
+  border: none;
+}
+
+.title {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.preview {
+  font-size: 10px;
+  color: var(--gravish-blue);
+}
+
+@media (max-width: 750px) {
+  .card {
+    min-height: 25vh;
+    padding: 5px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+   
+  }
+  .preview {
+    font-size: 15px;
+    color: var(--gravish-blue);
+   
+  }
+}
